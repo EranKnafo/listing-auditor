@@ -1,0 +1,54 @@
+{
+  "scoring": {
+    "penalties": { "INFO": 0, "LOW": 2, "MEDIUM": 6, "HIGH": 12, "CRITICAL": 30 }
+  },
+  "completeness": {
+    "required_fields": [
+      "title", "description", "address.city", "address.state",
+      "bedrooms", "bathrooms", "accommodates", "prices.base_price"
+    ],
+    "min_photos": 15,
+    "min_hero_width": 1600,
+    "required_amenities": ["wifi", "smoke_detector", "kitchen", "heating"],
+    "required_ota_platforms": ["airbnb", "vrbo", "booking"]
+  },
+  "marketing": {
+    "title_max_chars": 50,
+    "description_min_chars": 300,
+    "banned_title_patterns": [
+      "\\(?\\d{3}\\)?[-. ]?\\d{3}[-. ]\\d{4}",
+      "(?i)\\b(cheapest|#1|best price)\\b"
+    ],
+    "claim_keywords": {
+      "pool": "pool",
+      "hot tub": "hot_tub",
+      "fireplace": "fireplace",
+      "ev charger": "ev_charger"
+    }
+  },
+  "pricing": {
+    "long_term_min_nights": 30,
+    "stay_classes": {
+      "short_term": { "weekly_factor": [0.85, 0.95], "monthly_factor": [0.70, 0.85] },
+      "long_term":  { "weekly_factor": [0.90, 1.00], "monthly_factor": [0.55, 0.80] }
+    },
+    "weekend_factor": [1.0, 1.35],
+    "cleaning_fee_per_bedroom": [25, 90],
+    "extra_guest_fee_tiers": [
+      { "max_occupancy": 4,   "fee": [0, 0] },
+      { "max_occupancy": 7,   "fee": [15, 35] },
+      { "max_occupancy": 10,  "fee": [25, 50] },
+      { "max_occupancy": 999, "fee": [35, 60] }
+    ]
+  },
+  "policy": {
+    "max_guests_per_bedroom": 3,
+    "license_required_cities": ["Lakeport", "Harbor Bay"],
+    "allowed_cancellation_policies": ["flexible", "moderate", "strict"]
+  },
+  "anomaly": {
+    "mad_z_threshold": 3.5,
+    "min_relative_deviation": 0.35,
+    "min_peers": 5
+  }
+}

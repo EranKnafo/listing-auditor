@@ -1,0 +1,109 @@
+{
+  "lst_0001": [
+    "EXTRA_GUEST_FEE_OUT_OF_BAND"
+  ],
+  "lst_0002": [
+    "PHOTOS_FEW",
+    "EXTRA_GUEST_FEE_OUT_OF_BAND"
+  ],
+  "lst_0003": [
+    "AMENITY_CLAIM_MISMATCH",
+    "OTA_LINK_MISSING"
+  ],
+  "lst_0004": [
+    "TITLE_PHONE",
+    "TITLE_CAPS"
+  ],
+  "lst_0005": [
+    "EXTRA_GUEST_FEE_OUT_OF_BAND",
+    "OCCUPANCY_EXCEEDED"
+  ],
+  "lst_0007": [
+    "DISCOUNT_OUT_OF_BAND",
+    "OTA_LINK_MISSING"
+  ],
+  "lst_0009": [
+    "PRICE_OUTLIER"
+  ],
+  "lst_0010": [
+    "OCCUPANCY_EXCEEDED"
+  ],
+  "lst_0012": [
+    "EXTRA_GUEST_FEE_OUT_OF_BAND",
+    "OTA_LINK_MISSING"
+  ],
+  "lst_0021": [
+    "TITLE_PHONE"
+  ],
+  "lst_0022": [
+    "PRICE_OUTLIER"
+  ],
+  "lst_0023": [
+    "EXTRA_GUEST_FEE_OUT_OF_BAND"
+  ],
+  "lst_0024": [
+    "TITLE_PHONE",
+    "HERO_PHOTO_QUALITY"
+  ],
+  "lst_0026": [
+    "OTA_LINK_MISSING"
+  ],
+  "lst_0027": [
+    "OCCUPANCY_EXCEEDED"
+  ],
+  "lst_0029": [
+    "MIN_GT_MAX",
+    "HERO_PHOTO_QUALITY"
+  ],
+  "lst_0031": [
+    "PHOTOS_FEW"
+  ],
+  "lst_0033": [
+    "MIN_GT_MAX",
+    "AMENITY_CLAIM_MISMATCH"
+  ],
+  "lst_0034": [
+    "TIME_FORMAT"
+  ],
+  "lst_0037": [
+    "OCCUPANCY_EXCEEDED",
+    "EXTRA_GUEST_FEE_OUT_OF_BAND"
+  ],
+  "lst_0038": [
+    "MIN_GT_MAX",
+    "TITLE_CAPS"
+  ],
+  "lst_0041": [
+    "OTA_LINK_MISSING"
+  ],
+  "lst_0043": [
+    "MIN_GT_MAX"
+  ],
+  "lst_0044": [
+    "DISCOUNT_OUT_OF_BAND"
+  ],
+  "lst_0045": [
+    "TIME_FORMAT",
+    "MIN_GT_MAX"
+  ],
+  "lst_0047": [
+    "LICENSE_REQUIRED",
+    "TITLE_CAPS"
+  ],
+  "lst_0052": [
+    "OCCUPANCY_EXCEEDED"
+  ],
+  "lst_0053": [
+    "MIN_GT_MAX"
+  ],
+  "lst_0056": [
+    "HERO_PHOTO_QUALITY",
+    "OTA_LINK_MISSING"
+  ],
+  "lst_0057": [
+    "DISCOUNT_OUT_OF_BAND"
+  ],
+  "lst_0059": [
+    "TITLE_CAPS"
+  ]
+}
